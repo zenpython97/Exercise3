@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'uname -a'
-                echo "Jenkinsfile in the testing branch"
+                echo "echo this is a test branch"
             }
         }
     }
